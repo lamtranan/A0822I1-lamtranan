@@ -1,0 +1,8 @@
+Begin 
+  N là số được sinh ra ngẫu nhiên từ 0-9
+  Nhập vào M 
+  IF(N==M)
+     Display  "dự đoán đúng"
+  ELSE 
+     Diplay "dự đoán sai" 
+End

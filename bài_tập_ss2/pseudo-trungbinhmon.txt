@@ -1,0 +1,6 @@
+Begin 
+   Input Math, Physics, hemistry;
+       Average = (Math + Physics + hemistry) / 3
+   Output 
+       Average 
+End
