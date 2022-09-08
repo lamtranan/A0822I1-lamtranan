@@ -1,2 +1,1 @@
-# A0822I1-lamtranan
-# TDH01 
+# A0822I1-lamtranan 
