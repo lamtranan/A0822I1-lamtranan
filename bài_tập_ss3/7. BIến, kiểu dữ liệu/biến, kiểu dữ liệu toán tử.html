@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bài 1 - Nhập điểm sinh viên</title>
+</head>
+<body>
+<script>
+    //Bài 1
+    let vat_ly, hoa_hoc, sinh_hoc;
+    vat_ly = parseInt(prompt("Nhập điểm lý"));
+    hoa_hoc = parseInt(prompt("Nhập điểm hóa"));
+    sinh_hoc = parseInt(prompt("Nhập điểm sinh"));
+    let diem_trb;
+    diem_trb = (vat_ly + hoa_hoc + sinh_hoc)/3;
+    document.write("Điểm vật lý là: " + vat_ly + '<br/>');
+    document.write("Điểm hóa học là: " + hoa_hoc + '<br/>');
+    document.write("Điểm sinh học là: " + sinh_hoc + '<br/>');
+    document.write("Điểm trung bình là: " + diem_trb);
+    //Bài 2
+    let c, f;
+    c = parseInt(prompt("Nhập nhiệt độ theo 0C"));
+    f = (9 * c) / 5 + 32;
+    document.write(c + " 0C = " + f + " 0F");
+    //Bài 3
+    let r, S;
+    r = parseFloat(prompt("Nhập bán kính hình tròn"));
+    S = r * r * 3.14;
+    document.write("Diện tích hình tròn có bán kính " + r + " là: " + S);
+    //Bài 4
+    let r, S;
+    r = parseFloat(prompt("Nhập bán kính hình tròn"));
+    S = r * 2 * 3.14;
+    document.write("Chu vi hình tròn có bán kính " + r + " là: " + S);
+</script>
+</body>
+</html>
